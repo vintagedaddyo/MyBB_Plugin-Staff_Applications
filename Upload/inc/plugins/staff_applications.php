@@ -120,7 +120,7 @@ function staff_applications_activate()
 	// template
 
 	$templatearray = array(
-		"tid" => "NULL",
+		"tid" => "0",
 		"title" => "staff_applications_page",
 		"template" => $db->escape_string('
 <html>
